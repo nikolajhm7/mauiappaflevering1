@@ -20,11 +20,11 @@
             <!-- Buttons for navigation -->
             <HorizontalStackLayout>
                 <Button Text="Add Debtor"
-                        Command="{Binding NavigateToAddDebtorCommand}"
+                        Command="{Binding AddDebtorCommand}"
                         HorizontalOptions="Start"
                         VerticalOptions="Center" />
                 <Button Text="Show Debtors"
-                        Command="{Binding NavigateToShowDebtorsCommand}"
+                        Command="{Binding ShowDebtorsCommand}"
                         HorizontalOptions="Start"
                         VerticalOptions="Center" />
             </HorizontalStackLayout>

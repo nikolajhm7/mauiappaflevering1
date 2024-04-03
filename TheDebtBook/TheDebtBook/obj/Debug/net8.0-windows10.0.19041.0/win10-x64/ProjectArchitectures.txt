@@ -1,1 +1,1 @@
-C:\Users\Nikolaj\Desktop\FEDaflevering1\FED-grp26\TheDebtBook\TheDebtBook\TheDebtBook.csproj;x64
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\TheDebtBook.csproj;x64

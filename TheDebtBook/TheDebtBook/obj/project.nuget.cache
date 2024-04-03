@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o6FCfXAQT7OmdRW3AKa/A2Z1CtGJNPvamoyhQcvX/Rj9XCym6EwXztWJ6VQjwV0YQidd8AEbWFlUFjWvWdkmgQ==",
+  "dgSpecHash": "HfCiNCNc2afqTtXXN9tdfN3tvK5wABhILJsdQEL5PvjtZ4vgz17QvtWDlhfucmsN//RaEn+i5hZswCBOWBs7/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikolaj\\Desktop\\FEDaflevering1\\FED-grp26\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
+  "projectFilePath": "C:\\Users\\Nikolaj\\Desktop\\MAUIAppAflevering1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikolaj\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\communitytoolkit.maui.7.0.1.nupkg.sha512",
     "C:\\Users\\Nikolaj\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\communitytoolkit.maui.core.7.0.1.nupkg.sha512",

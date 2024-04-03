@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikolaj\\Desktop\\FEDaflevering1\\FED-grp26\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj": {}
+    "C:\\Users\\Nikolaj\\Desktop\\MAUIAppAflevering1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikolaj\\Desktop\\FEDaflevering1\\FED-grp26\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj": {
+    "C:\\Users\\Nikolaj\\Desktop\\MAUIAppAflevering1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikolaj\\Desktop\\FEDaflevering1\\FED-grp26\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
+        "projectUniqueName": "C:\\Users\\Nikolaj\\Desktop\\MAUIAppAflevering1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
         "projectName": "TheDebtBook",
-        "projectPath": "C:\\Users\\Nikolaj\\Desktop\\FEDaflevering1\\FED-grp26\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
+        "projectPath": "C:\\Users\\Nikolaj\\Desktop\\MAUIAppAflevering1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
         "packagesPath": "C:\\Users\\Nikolaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikolaj\\Desktop\\FEDaflevering1\\FED-grp26\\TheDebtBook\\TheDebtBook\\obj\\",
+        "outputPath": "C:\\Users\\Nikolaj\\Desktop\\MAUIAppAflevering1\\TheDebtBook\\TheDebtBook\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
