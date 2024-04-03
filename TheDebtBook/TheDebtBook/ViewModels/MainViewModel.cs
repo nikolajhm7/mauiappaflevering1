@@ -13,6 +13,7 @@ using System.Collections.ObjectModel;
 using Microsoft.Maui.Controls;
 using Microsoft.Extensions.DependencyInjection;
 using CommunityToolkit.Maui.Views;
+using System.Diagnostics;
 
 namespace TheDebtBook.ViewModels
 {
@@ -24,7 +25,6 @@ namespace TheDebtBook.ViewModels
         public MainViewModel(IDatabase database)
 		{
             _database = database;
-			_ = Initialize();
         }
         #region Properties
 
@@ -39,7 +39,8 @@ namespace TheDebtBook.ViewModels
 		[RelayCommand]
         private async Task AddDebtor()
 		{
-			await Shell.Current.GoToAsync("//addDebtor");
+            Debug.WriteLine("AddDebtor button pressed");
+            await Shell.Current.GoToAsync("//addDebtor");
 		}
 
 		[RelayCommand]
@@ -58,17 +59,19 @@ namespace TheDebtBook.ViewModels
         #endregion Commands
 
         #region Methods
-        // Initialization method to load debts from the database
-        private async Task Initialize()
-		{
-            System.Diagnostics.Debug.WriteLine("Initialize start");
-			var debtors = await _database.GetDebtors();
-			foreach (var debtor in debtors)
-			{
-				Debts.Add(debtor);
-			}
-            System.Diagnostics.Debug.WriteLine("Initialize end");
-        }
+        // Vi har ikke brug for den her metode, da vi har en event subscribtion i MainPage.xaml.cs,
+		// som trigger når mainpage er i syne, hvilket den er fra start
+
+  //      private async Task Initialize()
+		//{
+  //          System.Diagnostics.Debug.WriteLine("Initialize start");
+		//	var debtors = await _database.GetDebtors();
+		//	foreach (var debtor in debtors)
+		//	{
+		//		Debts.Add(debtor);
+		//	}
+  //          System.Diagnostics.Debug.WriteLine("Initialize end");
+  //      }
 
 		public async Task RefreshDebts()
 		{

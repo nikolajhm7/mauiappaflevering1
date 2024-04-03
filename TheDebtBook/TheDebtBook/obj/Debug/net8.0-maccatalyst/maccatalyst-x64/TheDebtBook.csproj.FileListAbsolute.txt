@@ -35,3 +35,26 @@ C:\Users\Marcus Milo\Desktop\Skole\Fjerde_semester\FED\Repo\fed-aflevering-1\The
 C:\Users\Marcus Milo\Desktop\Skole\Fjerde_semester\FED\Repo\fed-aflevering-1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.AssemblyInfoInputs.cache
 C:\Users\Marcus Milo\Desktop\Skole\Fjerde_semester\FED\Repo\fed-aflevering-1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.AssemblyInfo.cs
 C:\Users\Marcus Milo\Desktop\Skole\Fjerde_semester\FED\Repo\fed-aflevering-1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.csproj.CoreCompileInputs.cache
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_PartialAppManifest.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_BundleResourceWithLogicalName.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_ProcessedImageAssetsPath.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_PartialAppManifest.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\_ProcessedBundleResourcesPath.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\_ProcessedContentPath.items
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.csproj.AssemblyReference.cache
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.AssemblyInfoInputs.cache
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.AssemblyInfo.cs
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.csproj.CoreCompileInputs.cache
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.sourcelink.json
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.dll
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\refint\TheDebtBook.dll
+C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TheDebtBook.pdb

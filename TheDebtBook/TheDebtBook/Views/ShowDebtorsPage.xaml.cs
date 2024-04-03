@@ -1,4 +1,6 @@
 using TheDebtBook.ViewModels;
+using TheDebtBook.Models;
+using System.Diagnostics;
 
 namespace TheDebtBook.Views
 {
@@ -10,5 +12,11 @@ namespace TheDebtBook.Views
 			InitializeComponent();
 			BindingContext = _viewModel = vm;
 		}
-	}
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+			_viewModel.SetSelectedDebtor(Navigation?.NavigationStack?.LastOrDefault()?.BindingContext as Debtor);
+        }
+    }
 }

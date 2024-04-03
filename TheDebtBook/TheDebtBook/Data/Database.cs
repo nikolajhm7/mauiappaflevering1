@@ -54,5 +54,10 @@ namespace TheDebtBook.Data
         {
             await _connection.DeleteAllAsync<Debtor>();
         }
+
+		public async Task<int> UpdateDebt(Debtor debtor)
+		{
+			return await _connection.UpdateAsync(debtor);
+		}
     }
 }

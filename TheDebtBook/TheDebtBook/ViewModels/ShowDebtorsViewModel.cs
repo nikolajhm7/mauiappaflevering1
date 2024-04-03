@@ -11,6 +11,14 @@ namespace TheDebtBook.ViewModels
     {
         private readonly IDatabase _database;
 
+        private Debtor _selectedDebtor;
+
+        public Debtor SelectedDebtor
+        {
+            get => _selectedDebtor;
+            set => SetProperty(ref _selectedDebtor, value);
+        }
+
         // Commands for the ToolbarItems
         [RelayCommand]
         async Task NavigateToAddDebtorAsync() => await Shell.Current.GoToAsync("//addDebtor");
@@ -39,6 +47,11 @@ namespace TheDebtBook.ViewModels
             }
         }
 
+        // Method to set the selected debtor
+        public void SetSelectedDebtor(Debtor debtor)
+        {
+            SelectedDebtor = debtor;
+        }
 
     }
 }

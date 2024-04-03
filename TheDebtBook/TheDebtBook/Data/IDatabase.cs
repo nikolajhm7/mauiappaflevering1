@@ -13,6 +13,7 @@ namespace TheDebtBook.Data
 		//Task<Debtor> GetDebt(Debtor debtor);
 		Task<List<Debtor>> GetDebts();
 		Task ClearDebts();
+		Task<int> UpdateDebt(Debtor debtor);
 
     }
 }

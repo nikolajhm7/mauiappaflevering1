@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-03T15:17:38.430</Modified>
+      <Modified>2024-04-03T17:17:18.585</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-03T15:17:38.335</Modified>
+      <Modified>2024-04-03T17:11:52.173</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TheDebtBook.runtimeconfig.json">
       <PackagePath>TheDebtBook.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-03T15:15:40.336</Modified>
+      <Modified>2024-04-03T16:44:35.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TheDebtBook.dll">
       <PackagePath>TheDebtBook.dll</PackagePath>
-      <Modified>2024-04-03T15:17:38.009</Modified>
+      <Modified>2024-04-03T17:17:18.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TheDebtBook.exe</PackagePath>
-      <Modified>2024-04-03T15:17:38.013</Modified>
+      <Modified>2024-04-03T17:17:18.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,239 +55,239 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.887</Modified>
+      <Modified>2024-04-03T16:44:22.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.887</Modified>
+      <Modified>2024-04-03T16:44:23.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.887</Modified>
+      <Modified>2024-04-03T16:44:23.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.888</Modified>
+      <Modified>2024-04-03T16:44:23.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.888</Modified>
+      <Modified>2024-04-03T16:44:23.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-03-13T18:22:06.866</Modified>
+      <Modified>2024-03-13T18:22:05.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-03-13T18:22:06.867</Modified>
+      <Modified>2024-03-13T18:22:05.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-03-13T18:22:06.868</Modified>
+      <Modified>2024-04-03T16:44:23.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.868</Modified>
+      <Modified>2024-04-03T16:44:24.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.869</Modified>
+      <Modified>2024-04-03T16:44:24.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.869</Modified>
+      <Modified>2024-04-03T16:44:24.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.870</Modified>
+      <Modified>2024-04-03T16:44:24.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.870</Modified>
+      <Modified>2024-04-03T16:44:24.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.870</Modified>
+      <Modified>2024-04-03T16:44:23.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.871</Modified>
+      <Modified>2024-04-03T16:44:23.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.871</Modified>
+      <Modified>2024-04-03T16:44:23.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.871</Modified>
+      <Modified>2024-04-03T16:44:23.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.872</Modified>
+      <Modified>2024-04-03T16:44:23.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.872</Modified>
+      <Modified>2024-04-03T16:44:23.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.872</Modified>
+      <Modified>2024-04-03T16:44:23.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.873</Modified>
+      <Modified>2024-04-03T16:44:23.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.873</Modified>
+      <Modified>2024-04-03T16:44:23.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.873</Modified>
+      <Modified>2024-04-03T16:44:23.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.874</Modified>
+      <Modified>2024-04-03T16:44:23.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.874</Modified>
+      <Modified>2024-04-03T16:44:23.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.874</Modified>
+      <Modified>2024-04-03T16:44:23.725</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.874</Modified>
+      <Modified>2024-04-03T16:44:23.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.875</Modified>
+      <Modified>2024-04-03T16:44:23.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.875</Modified>
+      <Modified>2024-04-03T16:44:23.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.875</Modified>
+      <Modified>2024-04-03T16:44:23.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.876</Modified>
+      <Modified>2024-04-03T16:44:23.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.876</Modified>
+      <Modified>2024-04-03T16:44:23.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.876</Modified>
+      <Modified>2024-04-03T16:44:23.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.877</Modified>
+      <Modified>2024-04-03T16:44:23.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.877</Modified>
+      <Modified>2024-04-03T16:44:23.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.877</Modified>
+      <Modified>2024-04-03T16:44:23.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.878</Modified>
+      <Modified>2024-04-03T16:44:23.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.878</Modified>
+      <Modified>2024-04-03T16:44:23.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.878</Modified>
+      <Modified>2024-04-03T16:44:23.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.879</Modified>
+      <Modified>2024-04-03T16:44:23.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.879</Modified>
+      <Modified>2024-04-03T16:44:23.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.879</Modified>
+      <Modified>2024-04-03T16:44:23.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.879</Modified>
+      <Modified>2024-04-03T16:44:23.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.880</Modified>
+      <Modified>2024-04-03T16:44:23.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.880</Modified>
+      <Modified>2024-04-03T16:44:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.880</Modified>
+      <Modified>2024-04-03T16:44:23.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.881</Modified>
+      <Modified>2024-04-03T16:44:23.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.881</Modified>
+      <Modified>2024-04-03T16:44:23.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.881</Modified>
+      <Modified>2024-04-03T16:44:23.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.882</Modified>
+      <Modified>2024-04-03T16:44:23.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.882</Modified>
+      <Modified>2024-04-03T16:44:24.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.882</Modified>
+      <Modified>2024-04-03T16:44:24.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.883</Modified>
+      <Modified>2024-04-03T16:44:24.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.883</Modified>
+      <Modified>2024-04-03T16:44:23.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.884</Modified>
+      <Modified>2024-04-03T16:44:23.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.884</Modified>
+      <Modified>2024-04-03T16:44:23.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.885</Modified>
+      <Modified>2024-04-03T16:44:23.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-03-13T18:22:06.886</Modified>
+      <Modified>2024-04-03T16:44:23.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TheDebtBook.deps.json">
       <PackagePath>TheDebtBook.deps.json</PackagePath>
-      <Modified>2024-04-03T15:15:40.313</Modified>
+      <Modified>2024-04-03T16:44:35.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
