@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TheDebtBook/.vs/TheDebtBook/FileContentIndex/91bc7e75-c9b0-4d96-9a5b-cc53904caf73.vsidx
+/TheDebtBook/.vs/TheDebtBook/FileContentIndex/5197e747-dc79-47ed-873c-8d389276a9b3.vsidx
+/TheDebtBook/.vs/TheDebtBook/FileContentIndex/51f03741-5449-4fe1-9c58-c426e34d7474.vsidx
+/TheDebtBook/.vs/TheDebtBook/FileContentIndex/c5e4d7f7-2c46-4321-af84-baf9a7a11cf6.vsidx
+.vs/

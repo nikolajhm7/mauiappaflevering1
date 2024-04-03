@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tk="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"             
+             xmlns:vm="clr-namespace:TheDebtBook.ViewModels"
+             xmlns:m="clr-namespace:TheDebtBook.Models"
+             x:Class="TheDebtBook.Views.MainPage"
+             x:Name="PageMain"
+             >
+
+    <!--x:DataType="vm:MainViewModel"-->
+    <ScrollView>
+        <VerticalStackLayout Spacing="10">
+
+            <!-- Label for the page title -->
+            <Label Text="Debtors"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start" />
+
+            <!-- Buttons for navigation -->
+            <HorizontalStackLayout>
+                <Button Text="Add Debtor"
+                        Command="{Binding NavigateToAddDebtorCommand}"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center" />
+                <Button Text="Show Debtors"
+                        Command="{Binding NavigateToShowDebtorsCommand}"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!-- CollectionView for displaying debtors -->
+            <CollectionView ItemsSource="{Binding Debts}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Name}" Grid.Column="0" />
+                            <Label Text="{Binding Debt}" Grid.Column="1" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
