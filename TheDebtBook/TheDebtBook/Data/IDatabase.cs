@@ -11,9 +11,13 @@ namespace TheDebtBook.Data
 		Task<int> AddDebt(Debtor item);
 		Task<Debtor> GetDebt(int id);
 		//Task<Debtor> GetDebt(Debtor debtor);
-		Task<List<Debtor>> GetDebts();
+		//Task<List<Debtor>> GetDebts();
 		Task ClearDebts();
 		Task<int> UpdateDebt(Debtor debtor);
+		Task<List<PreviousDebt>> GetPreviousDebtsForDebtor(Debtor debtor);
+		Task<int> AddPreviousDebt(PreviousDebt previousDebt);
+		Task<decimal> CalculateTotalDebtForDebtor(int debtorId);
+
 
     }
 }

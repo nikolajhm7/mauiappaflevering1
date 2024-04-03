@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheDebtBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eb353b139eb907a443a8fe4405bbb147ca2a13fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a298249aedf9755786275e5be4b8ff5ddb6e4934")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheDebtBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheDebtBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

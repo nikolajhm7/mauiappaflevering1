@@ -23,9 +23,11 @@ namespace TheDebtBook.Data
 		private async Task Initialise()
 		{
 			await _connection.CreateTableAsync<Debtor>();
-		}
+            await _connection.CreateTableAsync<PreviousDebt>();
 
-		public async Task<int> AddDebtor(Debtor debtor)
+        }
+
+        public async Task<int> AddDebtor(Debtor debtor)
 		{
 			return await _connection.InsertAsync(debtor);
 		}
@@ -45,10 +47,10 @@ namespace TheDebtBook.Data
 			return await _connection.Table<Debtor>().Where(d => d.DebtorId == id).FirstOrDefaultAsync();
 		}
 
-		public async Task<List<Debtor>> GetDebts()
-		{
-			return await _connection.Table<Debtor>().ToListAsync();
-		}
+		//public async Task<List<Debtor>> GetDebts()
+		//{
+		//	return await _connection.Table<Debtor>().ToListAsync();
+		//}
 
         public async Task ClearDebts()
         {
@@ -59,5 +61,29 @@ namespace TheDebtBook.Data
 		{
 			return await _connection.UpdateAsync(debtor);
 		}
+
+		public async Task<List<PreviousDebt>> GetPreviousDebtsForDebtor(Debtor debtor)
+		{
+            return await _connection.Table<PreviousDebt>()
+                                     .Where(p => p.DebtorId == debtor.DebtorId)
+                                     .ToListAsync();
+        }
+
+        public async Task<int> AddPreviousDebt(PreviousDebt previousDebt)
+        {
+			return await _connection.InsertAsync(previousDebt);
+        }
+
+        public async Task<decimal> CalculateTotalDebtForDebtor(int debtorId)
+        {
+            var debtor = await _connection.Table<Debtor>().Where(d => d.DebtorId == debtorId).FirstOrDefaultAsync();
+            if (debtor != null)
+            {
+                var previousDebts = await _connection.Table<PreviousDebt>().Where(p => p.DebtorId == debtorId).ToListAsync();
+                decimal totalDebt = previousDebts.Sum(d => d.Amount);
+                return totalDebt;
+            }
+            return 0;
+        }
     }
 }

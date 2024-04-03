@@ -11,11 +11,6 @@ namespace TheDebtBook.ViewModels
 	{
 		private readonly IDatabase _database;
 
-		[ObservableProperty]
-		private string name;
-
-		[ObservableProperty]
-		private string debt;
 
 		public AddDebtorViewModel(IDatabase database)
 		{
@@ -24,22 +19,32 @@ namespace TheDebtBook.ViewModels
             AddDebtorAsyncCommand = new AsyncRelayCommand(AddDebtorAsync);
 			NavigateToMainPageAsyncCommand = new AsyncRelayCommand(NavigateToMainPageAsync);
         }
+        #region Properties
+        [ObservableProperty]
+		private string name;
+
+		[ObservableProperty]
+		private string debt;
+        #endregion Properties
+
+        #region Commands
         public IAsyncRelayCommand AddDebtorAsyncCommand { get; }
         public IAsyncRelayCommand NavigateToMainPageAsyncCommand { get; }
+        #endregion Commands
 
+        #region Methods
         private async Task AddDebtorAsync()
 		{
             if (!string.IsNullOrEmpty(Name) && decimal.TryParse(Debt, out decimal debtAmount))
 			{
 				var newDebtor = new Debtor { Name = this.Name, Debt = debtAmount };
 				await _database.AddDebtor(newDebtor); 
-				System.Diagnostics.Debug.WriteLine("Added debtor to Database B)");
 				await Shell.Current.GoToAsync("//main"); // Navigates back to main
-				await _database.GetDebts();
+				await _database.GetDebtors();
             }
         }
 
 		private async Task NavigateToMainPageAsync() => await Shell.Current.GoToAsync("//main");
-
-	}
+        #endregion Methods
+    }
 }

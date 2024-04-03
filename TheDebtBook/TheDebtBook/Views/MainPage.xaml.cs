@@ -28,7 +28,7 @@ namespace TheDebtBook.Views
                 System.Diagnostics.Debug.WriteLine("Ifstatement branch in OnItemSelected");
 				// Navigate to the details page, passing the selected debtor
 				//await Shell.Current.GoToAsync($"//showDebtors?name={selectedDebtor.Name}");
-				await Shell.Current.GoToAsync($"//showDebtors?name={selectedDebtor.Name}");
+				await Shell.Current.GoToAsync($"//showDebtors?selectedDebtorId={selectedDebtor.DebtorId}");
             }
             System.Diagnostics.Debug.WriteLine("Ifstatement passed in OnItemSelected");
         }

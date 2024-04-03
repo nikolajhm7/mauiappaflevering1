@@ -12,7 +12,6 @@ namespace TheDebtBook.ViewModels
         private readonly IDatabase _database;
 
         private Debtor _selectedDebtor;
-
         public Debtor SelectedDebtor
         {
             get => _selectedDebtor;
@@ -47,10 +46,13 @@ namespace TheDebtBook.ViewModels
             }
         }
 
+
         // Method to set the selected debtor
-        public void SetSelectedDebtor(Debtor debtor)
+        public async Task SetSelectedDebtor(Debtor debtor)
         {
             SelectedDebtor = debtor;
+
+            SelectedDebtor.PreviousDebts = await _database.GetPreviousDebtsForDebtor(debtor);
         }
 
     }

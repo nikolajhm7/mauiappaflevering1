@@ -9,7 +9,7 @@
 
     <VerticalStackLayout BackgroundColor="#192833">
         <!-- Display debtor's name -->
-        <Label Text="{Binding SelectedDebtor.Name}"
+        <Label Text="{Binding SelectedDebtor}"
                FontSize="Large"
                HorizontalOptions="Center"
                Margin="0,10"

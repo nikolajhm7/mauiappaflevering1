@@ -34,7 +34,6 @@ namespace TheDebtBook.ViewModels
 
 		#endregion Properties
 
-
 		#region Commands
 		[RelayCommand]
         private async Task AddDebtor()
@@ -76,7 +75,7 @@ namespace TheDebtBook.ViewModels
 		public async Task RefreshDebts()
 		{
 			Debts.Clear();
-			var debtors = await _database.GetDebts();
+			var debtors = await _database.GetDebtors();
 			foreach (var debtor in debtors)
 			{
 				Debts.Add(debtor);
