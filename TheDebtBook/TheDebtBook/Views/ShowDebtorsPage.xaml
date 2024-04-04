@@ -7,25 +7,20 @@
              x:Class="TheDebtBook.Views.ShowDebtorsPage"
              x:Name="DebtorsList">
 
-    <VerticalStackLayout BackgroundColor="#192833" Padding="0, 50, 0, 0">
+    <VerticalStackLayout Padding="0, 50, 0, 0">
         <Label Text="{Binding Name}"
                 FontSize="Header"
                 HorizontalOptions="Center"
                 Margin="0,10, 0, 30"
-                TextColor="#e9e9e9"
                 FontAttributes="Bold"/>
         <!-- Display previous debts -->
-        <Frame BackgroundColor="#2a4255"
-               HorizontalOptions="CenterAndExpand"
-               CornerRadius="10"
-               BorderColor="#2a4255">
+        <Frame HorizontalOptions="CenterAndExpand"
+               CornerRadius="10">
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="0, 5" Padding="0, -10, 0, -15">
                 <Label Text="Current debt"
-                        FontSize="Large"
-                        TextColor="#e9e9e9"/>
+                        FontSize="Large"/>
                 <Label Text="{Binding CurrentDebt}"
                         FontSize="Large"
-                        TextColor="#e9e9e9"
                         HorizontalOptions="Center"
                         Margin="0, 10"/>
             </StackLayout>
@@ -33,8 +28,7 @@
         <Label Text="Previous Debts"
                 FontSize="Large"
                 HorizontalOptions="Center"
-                Margin="0,50, 0, 0"
-                TextColor="#e9e9e9"/>
+                Margin="0,50, 0, 0"/>
         <!-- CollectionView to display previous debts -->
         <CollectionView ItemsSource="{Binding PreviousDebts}" 
                         HorizontalOptions="CenterAndExpand" 
@@ -42,32 +36,23 @@
                         Margin="15">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="m:PreviousDebt">
-                    <Grid Padding="10" BackgroundColor="#111a22" Margin="5">
+                    <Grid Padding="10" Margin="5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="300" />
                             <ColumnDefinition Width="100" />
                         </Grid.ColumnDefinitions>
-                        <Label Text="{Binding Name}" Grid.Column="0" VerticalOptions="Center" FontSize="Small" TextColor="#e9e9e9"/>
-                        <Label Text="{Binding Amount}" Grid.Column="1" VerticalOptions="Center" FontSize="Small" TextColor="#e9e9e9"/>
+                        <Label Text="{Binding Name}" Grid.Column="0" VerticalOptions="Center" FontSize="Small"/>
+                        <Label Text="{Binding Amount}" Grid.Column="1" VerticalOptions="Center" FontSize="Small"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
-            <!--<Button Text="Add"
-                    Command="{Binding NavigateToAddDebtorCommand}"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center" 
-                    BackgroundColor="#2a4255"
-                    FontAttributes="Bold"/>-->
-
             <Entry Placeholder="Enter amount"
                     Text="{Binding AmountToAdd, Mode=TwoWay}"
                     Keyboard="Numeric"
                     HorizontalOptions="StartAndExpand"
-                    BackgroundColor="#2a4255"
-                    TextColor="White"
                     FontAttributes="Bold"
                     WidthRequest="400"
                     Margin="0, 10, 0, 0"/>
@@ -77,13 +62,11 @@
                         Command="{Binding AddDebtCommand}"
                         HorizontalOptions="Start"
                         VerticalOptions="Center" 
-                        BackgroundColor="#2a4255"
                         FontAttributes="Bold"/>
             <Button Text="Go back"
                         Command="{Binding NavigateToMainPageCommand}"
                         HorizontalOptions="Start"
-                        VerticalOptions="Center" 
-                        BackgroundColor="#2a4255"
+                        VerticalOptions="Center"
                         FontAttributes="Bold"/>
         </StackLayout>
     </VerticalStackLayout>

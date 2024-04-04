@@ -6,18 +6,18 @@
              xmlns:m="clr-namespace:TheDebtBook.Models"
              x:Class="TheDebtBook.Views.AddDebtorPage"
              x:Name="PageAddDebtor">
-    <VerticalStackLayout BackgroundColor="#192833" Padding="0, 50, 0, 0">
+
+    <VerticalStackLayout Padding="0, 50, 0, 0">
         <Label Text="Add a new Debtor"
                FontSize="Large"
                HorizontalTextAlignment="Center"
-               FontAttributes="Bold"
-               TextColor="#e9e9e9"/>
-        <StackLayout Padding="20" BackgroundColor="#2a4255" Spacing="10" MaximumWidthRequest="420" Margin="0, 10">
-            <Entry Placeholder="Name" Text="{Binding Name}" TextColor="White" BackgroundColor="#111a22" />
-            <Entry Placeholder="Debt" Text="{Binding Debt}" TextColor="White" BackgroundColor="#111a22" Keyboard="Numeric" />
+               FontAttributes="Bold"/>
+        <StackLayout Padding="20" Spacing="10" MaximumWidthRequest="420" Margin="0, 10">
+            <Entry Placeholder="Name" Text="{Binding Name}"/>
+            <Entry Placeholder="Debt" Text="{Binding Debt}" Keyboard="Numeric" />
             <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="CenterAndExpand">
-                <Button Text="Save" Command="{Binding AddDebtorAsyncCommand}" BackgroundColor="#223544" />
-                <Button Text="Cancel" Command="{Binding NavigateToMainPageAsyncCommand}" BackgroundColor="#223544"/>
+                <Button Text="Save" Command="{Binding AddDebtorAsyncCommand}"/>
+                <Button Text="Cancel" Command="{Binding NavigateToMainPageAsyncCommand}"/>
             </StackLayout>
         </StackLayout>
     </VerticalStackLayout>
