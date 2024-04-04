@@ -8,7 +8,7 @@ namespace TheDebtBook.Data
 	{
 		Task<int> AddDebtor(Debtor debtor);
 		Task<List<Debtor>> GetDebtors();
-		Task<int> AddDebt(Debtor item);
+		Task<int> AddDebt(Debtor item, decimal amount);
 		Task<Debtor> GetDebt(int id);
 		//Task<Debtor> GetDebt(Debtor debtor);
 		//Task<List<Debtor>> GetDebts();

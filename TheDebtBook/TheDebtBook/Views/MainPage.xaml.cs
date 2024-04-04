@@ -22,15 +22,16 @@ namespace TheDebtBook.Views
 
         private async void OnItemSelectedAsync(object sender, SelectionChangedEventArgs e)
         {
-			System.Diagnostics.Debug.WriteLine("OnItemSelected is run");
-            if (e.CurrentSelection.FirstOrDefault() is Debtor selectedDebtor)
-            {
-                System.Diagnostics.Debug.WriteLine("Ifstatement branch in OnItemSelected");
-				// Navigate to the details page, passing the selected debtor
-				//await Shell.Current.GoToAsync($"//showDebtors?name={selectedDebtor.Name}");
-				await Shell.Current.GoToAsync($"//showDebtors?selectedDebtorId={selectedDebtor.DebtorId}");
-            }
-            System.Diagnostics.Debug.WriteLine("Ifstatement passed in OnItemSelected");
+			Debtor debtor = e.CurrentSelection.FirstOrDefault() as Debtor;
+			if (debtor != null)
+			{
+				var pageParams = new Dictionary<string, object>
+				{
+					{ "SelectedDebtor", debtor }
+				};
+
+				await Shell.Current.GoToAsync("//showDebtors", pageParams);
+			}
         }
     }
 }

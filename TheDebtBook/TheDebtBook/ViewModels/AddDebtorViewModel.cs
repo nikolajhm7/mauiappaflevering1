@@ -39,6 +39,15 @@ namespace TheDebtBook.ViewModels
 			{
 				var newDebtor = new Debtor { Name = this.Name, Debt = debtAmount };
 				await _database.AddDebtor(newDebtor); 
+
+                var initialdebt = new PreviousDebt 
+                { 
+                    Name = newDebtor.Name,
+                    Amount = debtAmount,
+                    DebtorId = newDebtor.DebtorId
+                };
+                await _database.AddPreviousDebt(initialdebt);
+
 				await Shell.Current.GoToAsync("//main"); // Navigates back to main
 				await _database.GetDebtors();
             }

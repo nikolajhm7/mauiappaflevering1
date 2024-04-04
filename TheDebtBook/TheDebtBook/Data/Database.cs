@@ -37,9 +37,21 @@ namespace TheDebtBook.Data
 			return await _connection.Table<Debtor>().ToListAsync();
 		}
 
-		public async Task<int> AddDebt(Debtor item)
+		public async Task<int> AddDebt(Debtor debtor, decimal amount)
 		{
-			return await _connection.InsertAsync(item);
+
+			var previousDebt = new PreviousDebt
+			{
+                DebtorId = debtor.DebtorId,
+                Amount = amount
+            };
+
+			debtor.Debt += amount;
+			await UpdateDebt(debtor);
+
+			int result = await AddPreviousDebt(previousDebt);
+
+			return result;
 		}
 
 		public async Task<Debtor> GetDebt(int id)
