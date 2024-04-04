@@ -7,27 +7,42 @@
              x:Class="TheDebtBook.Views.ShowDebtorsPage"
              x:Name="DebtorsList">
 
-    <VerticalStackLayout BackgroundColor="#192833">
+    <VerticalStackLayout BackgroundColor="#192833" Padding="0, 50, 0, 0">
         <Label Text="{Binding Name}"
-               FontSize="Large"
-               HorizontalOptions="Center"
-               Margin="0,10"
-               TextColor="White"/>
-
+                FontSize="Header"
+                HorizontalOptions="Center"
+                Margin="0,10, 0, 30"
+                TextColor="#e9e9e9"
+                FontAttributes="Bold"/>
         <!-- Display previous debts -->
-        <Label Text="{Binding CurrentDebt}"
-               FontSize="Large"
-               HorizontalOptions="Center"
-               Margin="0,10"
-               TextColor="White"/>
-
+        <Frame BackgroundColor="#2a4255"
+               HorizontalOptions="CenterAndExpand"
+               CornerRadius="10"
+               BorderColor="#2a4255">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="0, 5" Padding="0, -10, 0, -15">
+                <Label Text="Current debt"
+                        FontSize="Large"
+                        TextColor="#e9e9e9"/>
+                <Label Text="{Binding CurrentDebt}"
+                        FontSize="Large"
+                        TextColor="#e9e9e9"
+                        HorizontalOptions="Center"
+                        Margin="0, 10"/>
+            </StackLayout>
+        </Frame>
+        <Label Text="Previous Debts"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Margin="0,50, 0, 0"
+                TextColor="#e9e9e9"/>
         <!-- CollectionView to display previous debts -->
         <CollectionView ItemsSource="{Binding PreviousDebts}" 
                         HorizontalOptions="CenterAndExpand" 
-                        MaximumWidthRequest="420">
+                        MaximumWidthRequest="420"
+                        Margin="15">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="m:PreviousDebt">
-                    <Grid Padding="10" BackgroundColor="#111a22">
+                    <Grid Padding="10" BackgroundColor="#111a22" Margin="5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="300" />
                             <ColumnDefinition Width="100" />
@@ -53,19 +68,23 @@
                     HorizontalOptions="StartAndExpand"
                     BackgroundColor="#2a4255"
                     TextColor="White"
-                    FontAttributes="Bold"/>
+                    FontAttributes="Bold"
+                    WidthRequest="400"
+                    Margin="0, 10, 0, 0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Margin="0, 10, 0, 0">
             <Button Text="Add"
-                    Command="{Binding AddDebtCommand}"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center" 
-                    BackgroundColor="#2a4255"
-                    FontAttributes="Bold"/>
+                        Command="{Binding AddDebtCommand}"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center" 
+                        BackgroundColor="#2a4255"
+                        FontAttributes="Bold"/>
             <Button Text="Go back"
-                    Command="{Binding NavigateToMainPageCommand}"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center" 
-                    BackgroundColor="#2a4255"
-                    FontAttributes="Bold"/>
+                        Command="{Binding NavigateToMainPageCommand}"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center" 
+                        BackgroundColor="#2a4255"
+                        FontAttributes="Bold"/>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

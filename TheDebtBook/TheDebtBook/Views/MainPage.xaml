@@ -5,17 +5,24 @@
              xmlns:vm="clr-namespace:TheDebtBook.ViewModels"
              xmlns:m="clr-namespace:TheDebtBook.Models"
              x:Class="TheDebtBook.Views.MainPage">
-    
-    <ScrollView>
-        <VerticalStackLayout Spacing="0" BackgroundColor="#192833">
 
-            <!-- Label for the page title -->
-            <Label Text="Debtors"
-                   FontSize="Large"
-                   HorizontalTextAlignment="Center"
-                   FontAttributes="Bold"
-                   TextColor="#e9e9e9"/>
-            <Grid>
+
+    <VerticalStackLayout Spacing="0" BackgroundColor="#192833" Padding="0, 50, 0, 0">
+
+        <!-- Label for the page title -->
+        <Label Text="Debtors"
+               FontSize="Header"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"
+               Margin="0,10"
+               TextColor="#e9e9e9"/>
+        <Frame CornerRadius="10"
+               HorizontalOptions="CenterAndExpand"
+               Padding="10"
+               Margin="10"
+               BackgroundColor="Transparent"
+               BorderColor="Transparent">
+            <Grid HorizontalOptions="Center" Padding="40">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="70" />
                     <RowDefinition Height="*"/>
@@ -33,31 +40,33 @@
                     <!-- Buttons for navigation -->
                     <StackLayout Orientation="Horizontal" HorizontalOptions="End" Spacing="20">
                         <Button Text="Add Debtor"
-                            Command="{Binding AddDebtorCommand}"
-                            HorizontalOptions="Start"
-                            VerticalOptions="Center" 
-                            BackgroundColor="#2a4255"
-                            FontAttributes="Bold"/>
+                                    Command="{Binding AddDebtorCommand}"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center" 
+                                    BackgroundColor="#2a4255"
+                                    FontAttributes="Bold"
+                                    TextColor="#e9e9e9"/>
                         <!--<Button Text="Show Debtors"
-                            Command="{Binding ShowDebtorsCommand}"
-                            HorizontalOptions="Start"
-                            VerticalOptions="Center" 
-                            BackgroundColor="#2a4255"
-                            FontAttributes="Bold"/>-->
+                                    Command="{Binding ShowDebtorsCommand}"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center" 
+                                    BackgroundColor="#2a4255"
+                                    FontAttributes="Bold"/>-->
                         <Button Text="Clear Debtors (temp)"
-                            Command="{Binding ClearDebtorsCommand}"
-                            HorizontalOptions="Start"
-                            VerticalOptions="Center"
-                            BackgroundColor="#2a4255"
-                            FontAttributes="Bold"/>
+                                    Command="{Binding ClearDebtorsCommand}"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center"
+                                    BackgroundColor="#2a4255"
+                                    FontAttributes="Bold"
+                                    TextColor="#e9e9e9"/>
                     </StackLayout>
                 </StackLayout>
                 <CollectionView Grid.Row="1" 
-                                ItemsSource="{Binding Debts}" 
-                                HorizontalOptions="StartAndExpand" 
-                                MaximumWidthRequest="420" 
-                                SelectionChanged="OnItemSelectedAsync"
-                                SelectionMode="Single">
+                                            ItemsSource="{Binding Debts}" 
+                                            HorizontalOptions="StartAndExpand" 
+                                            MaximumWidthRequest="420" 
+                                            SelectionChanged="OnItemSelectedAsync"
+                                            SelectionMode="Single">
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="m:Debtor">
                             <Grid Padding="10" BackgroundColor="#111a22">
@@ -72,6 +81,7 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
-        </VerticalStackLayout>
-    </ScrollView>
+        </Frame>
+    </VerticalStackLayout>
+
 </ContentPage>

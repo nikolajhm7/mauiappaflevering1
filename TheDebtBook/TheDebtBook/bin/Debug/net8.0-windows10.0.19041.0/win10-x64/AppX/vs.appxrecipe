@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-04T09:07:12.824</Modified>
+      <Modified>2024-04-04T09:54:39.866</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TheDebtBook.dll">
       <PackagePath>TheDebtBook.dll</PackagePath>
-      <Modified>2024-04-04T09:07:12.483</Modified>
+      <Modified>2024-04-04T09:54:39.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TheDebtBook.exe</PackagePath>
-      <Modified>2024-04-04T09:07:12.488</Modified>
+      <Modified>2024-04-04T09:54:39.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj\Desktop\MAUIAppAflevering1\TheDebtBook\TheDebtBook\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
